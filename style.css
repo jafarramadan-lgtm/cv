@@ -3,7 +3,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: black;
-    height:800px;
+    height:400px;
 }
 .base{
 border-radius: 20px 20px ;
@@ -554,5 +554,6 @@ textarea{
 
 
 }
+
 
 
