@@ -1,0 +1,551 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.base{
+border-radius: 20px 20px ;
+gap: 2px;
+    background-color: rgb(0, 149, 255);
+        width: 1100px;
+    height: 800px;
+
+box-shadow: 20px;
+}
+.page1{gap: 1;
+position: relative;
+left: 40px;
+top: 30px;
+    box-shadow: 1px 1px 1px 5px black,1px 1px 1px 1px black inset;
+    border-radius: 10px;
+      border: 0;
+    padding: 5px;
+    margin: 0;
+    background-color: rgb(240, 248, 255);
+    width: 500px;
+    height: 700px;
+}
+.two,.one{
+        background-color: rgb(240, 248, 255);
+
+}
+.page2{
+    gap: 1;
+        box-shadow: 1px 1px 1px 5px black,1px 1px 1px 1px black inset;
+    border-radius: 10px;
+      border: 0;
+    padding: 5px;
+    margin: 0;
+    background-color: rgb(240, 248, 255);
+        width: 500px;
+    height: 700px;
+    position: relative;
+    left: 560px;
+    bottom: 677px;
+    z-index: 2;
+}
+.three{
+        background-color: rgb(240, 248, 255);
+
+    position: relative;
+    left: 10px;
+    bottom: 700px;
+}
+
+.seven{
+        background-color: rgb(240, 248, 255);
+
+    position: relative;
+    left: 10px;
+    bottom: 2100px;
+}
+.img1{
+        width: 145px;
+    height: 145px;
+        border-radius: 50%;
+
+}
+.img{
+        position: relative;
+left: 20px;
+grid-area: img;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+background-color: rgb(0, 149, 255);
+}
+.six img{
+            box-shadow: 1px 1px 1px 1px black,1px 1px 1px 1px black inset;
+
+border-radius: 20px 20px;
+}
+.web{
+        position: relative;
+    bottom: 30px;
+    left: 20px;
+
+    color:  rgb(0, 149, 255);
+}
+.fa-brands,.face{
+        box-shadow: 1px 1px 1px 1px blue,1px 1px 1px 1px blue inset;
+    padding: 5px; 
+    border-radius: 50%;
+    font-size: 3rem;
+    color: blue;
+    margin: 10px;
+}
+.p2{
+ grid-area: p2;
+    margin: 10px;
+border: 5px;}
+.cv,.contact{
+background-color: blue;
+color: rgb(0, 149, 255);
+    margin: 5px;
+            padding: 10px;
+            text-decoration: none;
+            position: relative;
+            bottom: 20px;
+}
+
+.p1{
+        grid-area: p1;
+        position: relative;
+        left: 20px;
+}
+.icon{
+       position: relative;
+       left: 20px;
+       grid-area: i;
+
+}
+.button{
+       grid-area: b;
+
+}
+.one .a11{
+    position: relative;
+    bottom: 45px;
+    left: 115px;
+    font-weight: bolder;
+    font-size: larger;
+    grid-area: a11;
+}
+.one{
+
+    z-index: -1;
+    display: grid;
+  height: 700px;
+    align-items: center;
+    grid-gap: 20px;
+    grid-template-areas: 
+    ". . ."
+    ". img  ."
+    ". p1 ."
+    " . i  ."
+    "p2  p2 p2"
+    ". b ."
+    ". a11 ."
+
+
+    ;
+
+}
+.mr{
+    position: relative;
+    bottom: 20px;
+}
+.line{
+    background-color: blue;
+    height: 600px;
+    width: 3px;
+    grid-area: line;
+    display: grid;
+    grid-template-areas: 
+    "s1"
+    "s2"
+    "s3"
+    ;
+}
+.s1{grid-area: s1;}
+.s2{grid-area: s2;}
+.s3{grid-area: s3;
+position: relative;
+top: 20px;}
+.s1,.s2,.s3{
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 5px;
+    border-radius:50% 50%;
+}
+.h1{
+    position: relative;
+    top: 10px;
+    left: 160px;
+    font-size:x-large;
+    font-weight: bold;
+    grid-area: h1;}
+.h2{
+    grid-area: h2;}
+    .h3{
+    grid-area: h3;}
+    .h4{
+    grid-area: h4;}
+.p1{grid-area: p1;}
+.p2{grid-area: p2;}
+.p3{grid-area: p3;}
+.next1{grid-area: n;
+      text-decoration: none;
+      font-size: large;
+        }
+        .prev{grid-area: n;
+      text-decoration: none;
+      font-size: large;
+        }
+        .a22{
+            grid-area: a22;
+            color: black;
+            font-size: larger;
+            font-weight: bolder;
+            position: relative;
+            left: 200px;
+            bottom: 5px;
+        }
+.two{
+    position: relative;
+    z-index: -2;
+    border-radius: 20px;
+    height: 700px;
+    display: grid;
+        align-items: center;
+    grid-gap: 20px;
+    grid-template-areas: 
+ ".  h1 . "
+ "line o1 ."
+ "line h2  ."
+ "line p1  ."
+ "line o2 ."
+  "line h3 ."
+  "line p2 n"
+   "line o3 ."
+  "line h4  ."
+  "line p3  ."
+  ". a22 ."  
+    ;
+}
+.six h2{
+    position: relative;
+    left: 10px;
+}
+.prev{
+    position: relative;
+    bottom: 15px;
+}
+.h2,.h3,.h4{
+    position: relative;
+    top: 35px;
+}
+.o1,.o2,.o3{
+    background-color: navy;
+    width: 10px;
+    height: 10px;
+   
+
+}
+.r1{
+    grid-area: o1;
+}
+.r2{
+    grid-area: o2;
+}.r3{
+    grid-area: o3;
+}
+.r1,.r2,.r3{
+    position: relative;
+    top: 30px;
+}
+.a33{
+                grid-area: a33;
+            color: black;
+            font-size: larger;
+            font-weight: bolder;
+            position: relative;
+            left: 200px;
+            bottom: 5px;
+
+}
+.three{
+    z-index: -3;
+    height: 700px;
+    display: grid;
+        align-items: center;
+    grid-gap: 20px;
+    grid-template-areas: 
+ ".  h1 . "
+ "line o1 ."
+ "line h2  ."
+ "line p1  ."
+ "line o2 ."
+  "line h3 ."
+  "line p2 ."
+   "line o3 ."
+  "line h4  ."
+  "line p3  ."  
+  "n a33 . " 
+  ;
+}
+.a44{
+                grid-area: a44;
+            color: black;
+            font-size: larger;
+            font-weight: bolder;
+            position: relative;
+          
+            right: 20px;
+}
+.four{
+    border-radius: 20px;
+
+        background-color: rgb(240, 248, 255);
+
+    position: relative;
+    left: 10px;
+    bottom: 700px;
+    height: 670px;
+    z-index:-4;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    ". h11 ."
+    "a b n2"
+    "c d ."
+    ". a44 ."
+    
+    ;
+}
+.a55,.a66,.a77{
+            color: black;
+            font-size: larger;
+            font-weight: bolder;
+            position: relative;
+
+}
+.a77{
+    position: relative;
+    left: 240px;
+    bottom: 30px;
+}
+.a55{
+    position: relative;
+    bottom: 240px;
+    left: 200px;
+}
+.a66{
+    position: relative;
+    left: 230px;
+top: 120px;
+}
+.a,.b,.c,.d{
+                box-shadow: 1px 1px 1px 1px  rgb(0, 149, 255),1px 1px 1px 1px  rgb(0, 149, 255) inset;
+                width: 220px;
+                height: 300px;
+}
+.l p{
+     font-size: 20px;         
+     color: rgb(0, 149, 255);
+}
+
+.b{grid-area: b;}
+.c{grid-area: c;}
+.d{grid-area: d;}
+.h11{grid-area: h11;
+position: relative;
+right: 60px;
+font-size: x-large;
+font-weight: bold;}
+.fa{
+grid-area: f;
+  font-size: 3rem;
+  position: relative;
+  left: 70px;
+  top: 10px;
+}
+.h22{
+    position: relative;
+    font-size: x-large;
+    font-weight: bolder;
+    grid-area: h22;
+}
+.p1{grid-area: p1;}
+.aa1{grid-area: aa1;
+position: relative;
+left: 70px;
+text-decoration: none;
+}
+.n2{
+    position: relative;
+    top: 380px;
+    grid-area: n2;
+    font-size: larger;
+    text-decoration: none;
+}
+.a{grid-area: a;}
+.a,.b,.c,.d{
+display: grid;
+gap: 10px;
+grid-template-areas: 
+". f ."
+". h22 ."
+". p1 ."
+". aa1 ."
+
+
+;
+}
+.five{
+        background-color: rgb(240, 248, 255);
+
+    position: relative;
+    left: 10px;
+    bottom: 1400px;
+    height: 700px;
+    z-index: -5;
+gap: 100px;
+display: grid;
+}
+.h0{position: relative;
+left: 100px;
+font-weight: bold;
+}
+.y p,.x p{
+    font-weight: bold;
+}
+.prev1{
+    text-decoration: none;
+    bottom: 105px;
+    position: relative;
+}
+.six{
+    border-radius: 20px;
+
+        background-color: rgb(240, 248, 255);  
+    height: 700px;
+    z-index: -6;
+    position: relative;
+   bottom: 1400px;
+}
+.six .n3{
+    position: relative;
+    bottom: 80px;
+    left: 260px;
+    text-decoration: none;
+}
+.six img{
+    width: 200px;
+    height: 250px;
+        left: 150px;
+            position: relative;
+
+
+}
+.six h1{
+    position: relative;
+    left: 150px;
+}
+.six .a1{
+    text-decoration: none;
+           left: 400px;
+           bottom: 50px;
+            position: relative;
+
+}
+.six .p1{
+            position: relative;
+           bottom: 50px;
+color:  rgb(0, 149, 255);
+}
+.six .p2{
+            position: relative;
+           bottom: 50px;
+}
+.six .cv,.six .contact{
+     position: relative;
+
+}
+.six .contact{
+     position: relative;
+           left: 100px;}
+
+
+.seven fieldset div input{
+    width: 350px;
+    color: black;
+    font-weight:bolder ;
+    font-size: medium;
+}           
+.seven{
+    z-index: -7;
+    height: 680px;
+
+}
+.seven .ab input{height: 200px;
+width: 450px;
+}
+.seven fieldset{
+    margin: 50px;
+}
+textarea{
+    width: 380px;
+    height: 200px;
+    resize: none;
+}
+.sub{
+    width: 100px;
+    height: 60px;
+    color: rgb(0, 149, 255);
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 200px;
+    bottom: 20px;
+}
+.seven .prev2{
+    position: relative;
+    right: 100px;
+    text-decoration: none;
+    top: 20px;
+}
+.contact:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+                        box-shadow: 1px 1px 1px 1px  black,1px 1px 1px 1px  black inset;
+
+}
+.cv:hover{
+    transition: 1s;
+    background-color: white;
+    color: black;
+                    box-shadow: 1px 1px 1px 1px  black,1px 1px 1px 1px  black inset;
+
+}
+.a1:hover{
+
+
+    transition: 1s;
+    background-color: blue;
+    color: white;
+                    box-shadow: 1px 1px 1px 1px  black,1px 1px 1px 1px  black inset;
+
+
+
+
+}
